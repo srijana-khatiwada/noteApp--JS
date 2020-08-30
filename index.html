@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="wholeContainer">
+
+    <!-- ----colors------ -->
+
+    <div class="colorsContainer">
+      <button class="colorBtn red" onclick="redColor()"><div class="red colors"></div></button>
+      <button class="colorBtn blue"  onclick="blueColor()"><div class="blue colors"></div></button>
+      <button class="colorBtn green" onclick="greenColor()"><div class="green colors"></div></button>
+      <button class="colorBtn pink" onclick="pinkColor()"><div class="pink colors"></div></button>
+      <button class="colorBtn purple" onclick="purpleColor()"><div class="purple colors"></div></button>
+      <button class="colorBtn orange" onclick="orangeColor()"><div class="orange colors"></div></button>
+      <button class="colorBtn black" onclick="blackColor()"><div class="black colors"></div></button>
+    </div>
+    
+    
+    <!-- ------notes container------ -->
+
+    <div class="noteContainer">
+    <!-- -------notes list------- -->
+      <div class="notesList">
+        <h3>Notes list:</h3>
+        <div class="bla">
+
+        </div>
+      </div>
+
+<!-- ----------notes----------- -->
+
+      <div class="myNotes">
+        <!-- <h3 class="title">Title</h3> -->
+      
+         <input class="noteTitle" type="text" placeholder="Title">
+        
+          <div class="noteWriting">
+            
+              <textarea id="text"></textarea>
+            
+            </div>
+              </div>
+
+    </div>
+    <!-- -----buttons---- -->
+    <div class="buttonsContainer">
+       <button class="saveNote" onclick="saveNoteFn()">Save Note</button>
+      <button class="newNoteBtn btn" onclick="newNoteGenerate()" > New note </button>
+      <button class="deleteNoteBtn btn"> Delete note </button>
+    </div>
+
+    <!-- ---------clear float----- -->
+    <div class="clearFloat"> 
+    </div>
+  </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

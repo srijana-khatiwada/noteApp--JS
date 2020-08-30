@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.colorsContainer {
+    float: right;
+    margin: 20px 20px 0px 0px;
+}
+
+.colorBtn {
+    background-color: white;
+    margin-right: 5px;
+}
+
+.colorBtn:hover {
+  cursor: pointer;
+}
+
+.colors {
+   width: 25px;
+   height: 25px; 
+}
+
+.red {
+    background-color: #FF684D;
+}
+
+.blue {
+    background-color: #38A1C5;
+}
+.green {
+    background-color: #52f769;
+}
+.pink {
+    background-color: #ff98ea;
+}
+.purple {
+    background-color: #c45daf;
+}
+.orange {
+    background-color: #ff814a;
+}
+.black {
+    background-color: rgb(0, 0, 0);
+}
+
+.noteContainer {
+    float: left;
+}
+.notesList {
+    float: left;
+    margin: 100px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(236, 235, 235);
+    box-shadow: 7px 7px 10px rgb(192, 190, 190);
+}
+
+.noteListN {
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    background-color:gray;
+}
+.notesList h3 {
+ text-align: center;
+ padding: 10px;
+}
+
+.myNotes {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    float: right;
+    margin: 100px;
+    text-align: center;
+    box-shadow: 7px 7px 8px rgb(192, 190, 190);
+}
+
+.noteTitle {
+border: none;
+color:black;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 5px;
+font-weight: bold;
+font-size: larger;
+width: 100%;
+padding: 10px;
+
+}
+
+#text {
+    width: 297px;
+    height: 245px;
+    border: none;
+    padding: 10px;
+}
+.myNotes h3 {
+    padding: 10px;
+}
+
+.buttonsContainer {
+float: right;
+margin: 200px 250px 0px 0px;
+width: 100px;}
+
+.newNoteBtn {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.clearFloat {
+    clear: both;
+}
